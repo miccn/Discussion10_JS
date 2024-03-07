@@ -253,7 +253,7 @@ h3{
     }
 }
 
-@media (min-width: 1900px){
+@media (min-width: 1800px){
     .topics-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }

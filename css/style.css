@@ -248,11 +248,6 @@ h3{
     .topics-container{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .photo-gallery-container{
-        overflow: scroll;
-        scrollbar-width: none;
-        max-height: 300px;
-    }
     #main{
         width: 1200px;
     }

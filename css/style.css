@@ -233,7 +233,31 @@ h3{
 .landing-page-intro{
     font-style: italic;
 }
+footer{
+    color: var(--light);
+}
 
+.jump-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--mid-dark);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--light);
+    background: var(--mid-dark);
+    border: 1px solid var(--dark);
+}
+
+.jump-to-top:hover {
+    border: 2px solid var(--light);
+    border-radius: 5px;
+}
+
+body.scrolled .jump-to-top {
+display: inline-block;
+}
 
 @media (min-width: 600px){
     .topics-container{

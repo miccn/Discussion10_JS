@@ -9,12 +9,11 @@
         function displayInformation () {
             // Your code goes here. 
             // Do not change any other code in this file
-            // All of the steps below must be achieved using JavaScript!
-            
+            // All of the steps below must be achieved using JavaScript! 
             
             // 1. Change the h1 element to your name.
             document.querySelector("h1").innerHTML = "Michael Chen";
-               
+            document.querySelector("title").innerHTML = "I Changed the title with javascript!";
             // 2. Update the three span elements using ONLY JavaScript
             
     
@@ -26,6 +25,8 @@
         // Each occurrence should be on a separate line.  Don't use 
         // paragraphs. 
     
+
+        window.onload = displayInformation;
                    
     </script>
 
